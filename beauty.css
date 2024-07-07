@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+}
+
+.hairpng{
+    filter: grayscale(100%);
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10%;
+    width: 800px;
+}
+
+.facepng{
+    filter: grayscale(100%);
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    left: 52%;
+    transform: translate(-55%, -70%);
+    
+    width: 500px;
+}
+
+.bodypng{
+    filter: grayscale(100%);
+    position: absolute;
+    z-index: -3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10%;
+}
